@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management System</title>
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+
+    <header>
+        <h1>Upcoming Events</h1>
+        <div id="countdown">Event in: 10 days, 5 hours</div> 
+    </header>
+    <main>
+        <section class="featured-events">
+            <h2>Featured Events</h2>
+            <div class="carousel">
+                <div class="carousel-item">Event 1</div>
+                <div class="carousel-item">Event 2</div>
+                <div class="carousel-item">Event 3</div>
+            </div>
+        </section>
+
+        <section class="event-details">
+            <h1>Event Name</h1>
+            <div class="tabs">
+                <div class="tab-button active">Overview</div>
+                <div class="tab-button">Schedule</div>
+                <div class="tab-button">Speakers</div>
+                <div class="tab-button">Tickets</div>
+            </div>
+            <div class="tab-content">
+                <h2>Overview</h2>
+                <p>Details about the event...</p>
+            </div>
+            <div class="tab-content">
+                <h2>Schedule</h2>
+                <p>Event schedule details...</p>
+            </div>
+            <div class="tab-content">
+                <h2>Speakers</h2>
+                <p>Speaker details...</p>
+            </div>
+            <div class="tab-content">
+                <h2>Tickets</h2>
+                <p>Ticket information...</p>
+            </div>
+        </section>
+
+
+        <section class="registration-form">
+            <h1>Register for the Event</h1>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="date">Event Date:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="time">Preferred Time:</label>
+                <input type="time" id="time" name="time" required>
+                
+                <input type="submit" value="Register">
+            </form>
+        </section>
+
+   
+        <section class="gallery">
+            <h1>Event Gallery</h1>
+            <div class="gallery-grid">
+                <img src="images.jpeg" alt="Event Image 1" class="gallery-item">
+                <img src="raja.webp" alt="Event Image 2" class="gallery-item">
+                <img src="arr.jpeg" alt="Event Image 3" class="gallery-item">
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
